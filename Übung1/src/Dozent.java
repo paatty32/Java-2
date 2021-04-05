@@ -1,6 +1,12 @@
 public class Dozent extends Person{
 
-    public Dozent(int alter, String name){
+    public Dozent(String name, int alter){
+
         super(name, alter);
+
+    }
+
+    public Dozent(String name){
+        super(name);
     }
 }
