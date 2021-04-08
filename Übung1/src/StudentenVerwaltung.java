@@ -8,7 +8,7 @@ public class StudentenVerwaltung {
     public StudentenVerwaltung(){
 
     }
-
+//test
     public StudentenVerwaltung(ArrayList<Student> studenten, ArrayList<Dozent> dozenten){
         this.studenten = studenten;
         this.dozenten = dozenten;
